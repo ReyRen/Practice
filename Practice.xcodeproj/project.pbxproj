@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23C1EDE01F7A1E5D009A6631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23C1EDDF1F7A1E5D009A6631 /* main.cpp */; };
+		231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 231D3AD21F96F2990065140D /* 构造和析构基础.cpp */; };
+		23D75CCA1F8570FC00173F22 /* ks02.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D75CC91F8570FC00173F22 /* ks02.c */; };
+		23E689641F95AA1500D3DF1C /* myop.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689621F95AA1500D3DF1C /* myop.c */; };
+		23E689661F95AE7200D3DF1C /* test_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689651F95AE7200D3DF1C /* test_interface.c */; };
+		23E689691F95AF0000D3DF1C /* cfg_op.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689681F95AF0000D3DF1C /* cfg_op.c */; };
+		23E6D8691F9700E50090BCEB /* ks03.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D8681F9700E50090BCEB /* ks03.c */; };
+		23E6D86B1F9716150090BCEB /* ks04.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D86A1F9716150090BCEB /* ks04.c */; };
+		23F19B281F84872A008D25FD /* 构造析构方案.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23F19B271F84872A008D25FD /* 构造析构方案.cpp */; };
+		23F19B2B1F848FD4008D25FD /* ks01.c in Sources */ = {isa = PBXBuildFile; fileRef = 23F19B2A1F848FD4008D25FD /* ks01.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		231D3AD21F96F2990065140D /* 构造和析构基础.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "构造和析构基础.cpp"; sourceTree = "<group>"; };
 		23C1EDDC1F7A1E5C009A6631 /* Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C1EDDF1F7A1E5D009A6631 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		23D75CC91F8570FC00173F22 /* ks02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks02.c; sourceTree = "<group>"; };
+		23E689621F95AA1500D3DF1C /* myop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = myop.c; sourceTree = "<group>"; };
+		23E689631F95AA1500D3DF1C /* myop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myop.h; sourceTree = "<group>"; };
+		23E689651F95AE7200D3DF1C /* test_interface.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_interface.c; sourceTree = "<group>"; };
+		23E689671F95AEB900D3DF1C /* cfg_op.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cfg_op.h; sourceTree = "<group>"; };
+		23E689681F95AF0000D3DF1C /* cfg_op.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cfg_op.c; sourceTree = "<group>"; };
+		23E6D8681F9700E50090BCEB /* ks03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks03.c; sourceTree = "<group>"; };
+		23E6D86A1F9716150090BCEB /* ks04.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks04.c; sourceTree = "<group>"; };
+		23F19B271F84872A008D25FD /* 构造析构方案.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "构造析构方案.cpp"; sourceTree = "<group>"; };
+		23F19B2A1F848FD4008D25FD /* ks01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks01.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +56,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		231D3AD11F96F2700065140D /* 结构体和析构函数 */ = {
+			isa = PBXGroup;
+			children = (
+				231D3AD21F96F2990065140D /* 构造和析构基础.cpp */,
+			);
+			path = "结构体和析构函数";
+			sourceTree = "<group>";
+		};
 		23C1EDD31F7A1E5C009A6631 = {
 			isa = PBXGroup;
 			children = (
+				231D3AD11F96F2700065140D /* 结构体和析构函数 */,
+				23E689611F95A9E400D3DF1C /* 结构体配置文件读写 */,
+				23F19B291F848FA6008D25FD /* C-期中测试 */,
+				23C1EDE71F7AE661009A6631 /* 引用操练 */,
 				23C1EDDE1F7A1E5C009A6631 /* Practice */,
 				23C1EDDD1F7A1E5C009A6631 /* Products */,
 			);
@@ -57,9 +87,39 @@
 		23C1EDDE1F7A1E5C009A6631 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
-				23C1EDDF1F7A1E5D009A6631 /* main.cpp */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		23C1EDE71F7AE661009A6631 /* 引用操练 */ = {
+			isa = PBXGroup;
+			children = (
+				23F19B271F84872A008D25FD /* 构造析构方案.cpp */,
+			);
+			path = "引用操练";
+			sourceTree = "<group>";
+		};
+		23E689611F95A9E400D3DF1C /* 结构体配置文件读写 */ = {
+			isa = PBXGroup;
+			children = (
+				23E689621F95AA1500D3DF1C /* myop.c */,
+				23E689631F95AA1500D3DF1C /* myop.h */,
+				23E689651F95AE7200D3DF1C /* test_interface.c */,
+				23E689671F95AEB900D3DF1C /* cfg_op.h */,
+				23E689681F95AF0000D3DF1C /* cfg_op.c */,
+			);
+			path = "结构体配置文件读写";
+			sourceTree = "<group>";
+		};
+		23F19B291F848FA6008D25FD /* C-期中测试 */ = {
+			isa = PBXGroup;
+			children = (
+				23F19B2A1F848FD4008D25FD /* ks01.c */,
+				23D75CC91F8570FC00173F22 /* ks02.c */,
+				23E6D8681F9700E50090BCEB /* ks03.c */,
+				23E6D86A1F9716150090BCEB /* ks04.c */,
+			);
+			path = "C-期中测试";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C1EDE01F7A1E5D009A6631 /* main.cpp in Sources */,
+				23E6D8691F9700E50090BCEB /* ks03.c in Sources */,
+				23E6D86B1F9716150090BCEB /* ks04.c in Sources */,
+				231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */,
+				23E689641F95AA1500D3DF1C /* myop.c in Sources */,
+				23E689691F95AF0000D3DF1C /* cfg_op.c in Sources */,
+				23E689661F95AE7200D3DF1C /* test_interface.c in Sources */,
+				23D75CCA1F8570FC00173F22 /* ks02.c in Sources */,
+				23F19B2B1F848FD4008D25FD /* ks01.c in Sources */,
+				23F19B281F84872A008D25FD /* 构造析构方案.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
