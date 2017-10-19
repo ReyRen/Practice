@@ -30,7 +30,7 @@ typedef struct Node
     struct Node *next;
 }SLIST;
 
-SLIST *SList_Creat();
+SLIST *SList_Creat(void);
 int SList_Print(SLIST *pHead);
 int SList_NodeInsert(SLIST *pHead, int x, int y);
 int SList_NodeDel(SLIST *pHead, int x);
