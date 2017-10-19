@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 231D3AD21F96F2990065140D /* 构造和析构基础.cpp */; };
+		232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746B1F9885FE005149D1 /* static关键字.cpp */; };
+		232E747B1F9885FF005149D1 /* copy构造函数规则研究.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */; };
+		232E747C1F9885FF005149D1 /* 拷贝构造函数的四种应用场景.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746D1F9885FE005149D1 /* 拷贝构造函数的四种应用场景.cpp */; };
+		232E747D1F9885FF005149D1 /* 强化练习01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746E1F9885FF005149D1 /* 强化练习01.cpp */; };
+		232E747E1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746F1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp */; };
+		232E747F1F9885FF005149D1 /* C++对象管理模型.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74701F9885FF005149D1 /* C++对象管理模型.cpp */; };
+		232E74801F9885FF005149D1 /* 强化练习03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74711F9885FF005149D1 /* 强化练习03.cpp */; };
+		232E74811F9885FF005149D1 /* 多个对象初始化问题研究.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74721F9885FF005149D1 /* 多个对象初始化问题研究.cpp */; };
+		232E74821F9885FF005149D1 /* newDelete专题提高.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74731F9885FF005149D1 /* newDelete专题提高.cpp */; };
+		232E74831F9885FF005149D1 /* newDelete专题基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74741F9885FF005149D1 /* newDelete专题基础.cpp */; };
+		232E74841F9885FF005149D1 /* 强化练习02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74751F9885FF005149D1 /* 强化练习02.cpp */; };
+		232E74851F9885FF005149D1 /* 拷贝构造函数场景2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74761F9885FF005149D1 /* 拷贝构造函数场景2.cpp */; };
+		232E74861F9885FF005149D1 /* 深copy浅copy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74771F9885FF005149D1 /* 深copy浅copy.cpp */; };
+		232E74871F9885FF005149D1 /* 深浅copy2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74781F9885FF005149D1 /* 深浅copy2.cpp */; };
+		232E74881F9885FF005149D1 /* C++对象管理模型2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74791F9885FF005149D1 /* C++对象管理模型2.cpp */; };
 		23D75CCA1F8570FC00173F22 /* ks02.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D75CC91F8570FC00173F22 /* ks02.c */; };
 		23E689641F95AA1500D3DF1C /* myop.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689621F95AA1500D3DF1C /* myop.c */; };
 		23E689661F95AE7200D3DF1C /* test_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689651F95AE7200D3DF1C /* test_interface.c */; };
@@ -32,6 +47,21 @@
 
 /* Begin PBXFileReference section */
 		231D3AD21F96F2990065140D /* 构造和析构基础.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "构造和析构基础.cpp"; sourceTree = "<group>"; };
+		232E746B1F9885FE005149D1 /* static关键字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "static关键字.cpp"; sourceTree = "<group>"; };
+		232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "copy构造函数规则研究.cpp"; sourceTree = "<group>"; };
+		232E746D1F9885FE005149D1 /* 拷贝构造函数的四种应用场景.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "拷贝构造函数的四种应用场景.cpp"; sourceTree = "<group>"; };
+		232E746E1F9885FF005149D1 /* 强化练习01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "强化练习01.cpp"; sourceTree = "<group>"; };
+		232E746F1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "拷贝构造函数第四个应用场景.cpp"; sourceTree = "<group>"; };
+		232E74701F9885FF005149D1 /* C++对象管理模型.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "C++对象管理模型.cpp"; sourceTree = "<group>"; };
+		232E74711F9885FF005149D1 /* 强化练习03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "强化练习03.cpp"; sourceTree = "<group>"; };
+		232E74721F9885FF005149D1 /* 多个对象初始化问题研究.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "多个对象初始化问题研究.cpp"; sourceTree = "<group>"; };
+		232E74731F9885FF005149D1 /* newDelete专题提高.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "newDelete专题提高.cpp"; sourceTree = "<group>"; };
+		232E74741F9885FF005149D1 /* newDelete专题基础.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "newDelete专题基础.cpp"; sourceTree = "<group>"; };
+		232E74751F9885FF005149D1 /* 强化练习02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "强化练习02.cpp"; sourceTree = "<group>"; };
+		232E74761F9885FF005149D1 /* 拷贝构造函数场景2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "拷贝构造函数场景2.cpp"; sourceTree = "<group>"; };
+		232E74771F9885FF005149D1 /* 深copy浅copy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "深copy浅copy.cpp"; sourceTree = "<group>"; };
+		232E74781F9885FF005149D1 /* 深浅copy2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "深浅copy2.cpp"; sourceTree = "<group>"; };
+		232E74791F9885FF005149D1 /* C++对象管理模型2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "C++对象管理模型2.cpp"; sourceTree = "<group>"; };
 		23C1EDDC1F7A1E5C009A6631 /* Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D75CC91F8570FC00173F22 /* ks02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks02.c; sourceTree = "<group>"; };
 		23E689621F95AA1500D3DF1C /* myop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = myop.c; sourceTree = "<group>"; };
@@ -59,6 +89,21 @@
 		231D3AD11F96F2700065140D /* 结构体和析构函数 */ = {
 			isa = PBXGroup;
 			children = (
+				232E74721F9885FF005149D1 /* 多个对象初始化问题研究.cpp */,
+				232E74761F9885FF005149D1 /* 拷贝构造函数场景2.cpp */,
+				232E746D1F9885FE005149D1 /* 拷贝构造函数的四种应用场景.cpp */,
+				232E746F1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp */,
+				232E746E1F9885FF005149D1 /* 强化练习01.cpp */,
+				232E74751F9885FF005149D1 /* 强化练习02.cpp */,
+				232E74711F9885FF005149D1 /* 强化练习03.cpp */,
+				232E74781F9885FF005149D1 /* 深浅copy2.cpp */,
+				232E74771F9885FF005149D1 /* 深copy浅copy.cpp */,
+				232E74701F9885FF005149D1 /* C++对象管理模型.cpp */,
+				232E74791F9885FF005149D1 /* C++对象管理模型2.cpp */,
+				232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */,
+				232E74741F9885FF005149D1 /* newDelete专题基础.cpp */,
+				232E74731F9885FF005149D1 /* newDelete专题提高.cpp */,
+				232E746B1F9885FE005149D1 /* static关键字.cpp */,
 				231D3AD21F96F2990065140D /* 构造和析构基础.cpp */,
 			);
 			path = "结构体和析构函数";
@@ -179,14 +224,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232E74811F9885FF005149D1 /* 多个对象初始化问题研究.cpp in Sources */,
+				232E74861F9885FF005149D1 /* 深copy浅copy.cpp in Sources */,
 				23E6D8691F9700E50090BCEB /* ks03.c in Sources */,
+				232E74821F9885FF005149D1 /* newDelete专题提高.cpp in Sources */,
+				232E74801F9885FF005149D1 /* 强化练习03.cpp in Sources */,
+				232E74851F9885FF005149D1 /* 拷贝构造函数场景2.cpp in Sources */,
+				232E747F1F9885FF005149D1 /* C++对象管理模型.cpp in Sources */,
+				232E74881F9885FF005149D1 /* C++对象管理模型2.cpp in Sources */,
 				23E6D86B1F9716150090BCEB /* ks04.c in Sources */,
 				231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */,
+				232E747E1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp in Sources */,
 				23E689641F95AA1500D3DF1C /* myop.c in Sources */,
+				232E74831F9885FF005149D1 /* newDelete专题基础.cpp in Sources */,
+				232E747D1F9885FF005149D1 /* 强化练习01.cpp in Sources */,
 				23E689691F95AF0000D3DF1C /* cfg_op.c in Sources */,
 				23E689661F95AE7200D3DF1C /* test_interface.c in Sources */,
+				232E74871F9885FF005149D1 /* 深浅copy2.cpp in Sources */,
 				23D75CCA1F8570FC00173F22 /* ks02.c in Sources */,
+				232E747B1F9885FF005149D1 /* copy构造函数规则研究.cpp in Sources */,
+				232E747C1F9885FF005149D1 /* 拷贝构造函数的四种应用场景.cpp in Sources */,
+				232E74841F9885FF005149D1 /* 强化练习02.cpp in Sources */,
 				23F19B2B1F848FD4008D25FD /* ks01.c in Sources */,
+				232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */,
 				23F19B281F84872A008D25FD /* 构造析构方案.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
