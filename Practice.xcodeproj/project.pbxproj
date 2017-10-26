@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230F13801FA1ADB6007734F1 /* 货物链表类.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F13761FA1ADB6007734F1 /* 货物链表类.cpp */; };
+		230F13811FA1ADB6007734F1 /* 运算符重载.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F13771FA1ADB6007734F1 /* 运算符重载.cpp */; };
+		230F13821FA1ADB6007734F1 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F13781FA1ADB6007734F1 /* Array.cpp */; };
+		230F13831FA1ADB6007734F1 /* 全局函数和普通函数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137A1FA1ADB6007734F1 /* 全局函数和普通函数.cpp */; };
+		230F13841FA1ADB6007734F1 /* 友元函数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137B1FA1ADB6007734F1 /* 友元函数.cpp */; };
+		230F13851FA1ADB6007734F1 /* ArrayTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137C1FA1ADB6007734F1 /* ArrayTest.cpp */; };
+		230F13861FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137D1FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp */; };
+		230F13871FA1ADB6007734F1 /* 操作符重载的正确写法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137E1FA1ADB6007734F1 /* 操作符重载的正确写法.cpp */; };
+		230F13881FA1ADB6007734F1 /* const测试.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137F1FA1ADB6007734F1 /* const测试.cpp */; };
 		231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 231D3AD21F96F2990065140D /* 构造和析构基础.cpp */; };
 		232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746B1F9885FE005149D1 /* static关键字.cpp */; };
 		232E747B1F9885FF005149D1 /* copy构造函数规则研究.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */; };
@@ -23,6 +32,13 @@
 		232E74861F9885FF005149D1 /* 深copy浅copy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74771F9885FF005149D1 /* 深copy浅copy.cpp */; };
 		232E74871F9885FF005149D1 /* 深浅copy2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74781F9885FF005149D1 /* 深浅copy2.cpp */; };
 		232E74881F9885FF005149D1 /* C++对象管理模型2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E74791F9885FF005149D1 /* C++对象管理模型2.cpp */; };
+		23B149F91FA1ABFF00150360 /* 引用基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F21FA1ABFF00150360 /* 引用基础.cpp */; };
+		23B149FA1FA1ABFF00150360 /* 引用当左值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F31FA1ABFF00150360 /* 引用当左值.cpp */; };
+		23B149FB1FA1ABFF00150360 /* 类的封装.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F41FA1ABFF00150360 /* 类的封装.cpp */; };
+		23B149FC1FA1ABFF00150360 /* 函数扩展.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F51FA1ABFF00150360 /* 函数扩展.cpp */; };
+		23B149FD1FA1ABFF00150360 /* 指针的引用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F61FA1ABFF00150360 /* 指针的引用.cpp */; };
+		23B149FE1FA1ABFF00150360 /* 函数重载.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F71FA1ABFF00150360 /* 函数重载.cpp */; };
+		23B149FF1FA1ABFF00150360 /* const引用.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B149F81FA1ABFF00150360 /* const引用.cpp */; };
 		23D75CCA1F8570FC00173F22 /* ks02.c in Sources */ = {isa = PBXBuildFile; fileRef = 23D75CC91F8570FC00173F22 /* ks02.c */; };
 		23E689641F95AA1500D3DF1C /* myop.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689621F95AA1500D3DF1C /* myop.c */; };
 		23E689661F95AE7200D3DF1C /* test_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E689651F95AE7200D3DF1C /* test_interface.c */; };
@@ -46,6 +62,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		230F13761FA1ADB6007734F1 /* 货物链表类.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "货物链表类.cpp"; sourceTree = "<group>"; };
+		230F13771FA1ADB6007734F1 /* 运算符重载.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "运算符重载.cpp"; sourceTree = "<group>"; };
+		230F13781FA1ADB6007734F1 /* Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		230F13791FA1ADB6007734F1 /* Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		230F137A1FA1ADB6007734F1 /* 全局函数和普通函数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "全局函数和普通函数.cpp"; sourceTree = "<group>"; };
+		230F137B1FA1ADB6007734F1 /* 友元函数.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "友元函数.cpp"; sourceTree = "<group>"; };
+		230F137C1FA1ADB6007734F1 /* ArrayTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTest.cpp; sourceTree = "<group>"; };
+		230F137D1FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "用两种方法实现运算符重载.cpp"; sourceTree = "<group>"; };
+		230F137E1FA1ADB6007734F1 /* 操作符重载的正确写法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "操作符重载的正确写法.cpp"; sourceTree = "<group>"; };
+		230F137F1FA1ADB6007734F1 /* const测试.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "const测试.cpp"; sourceTree = "<group>"; };
 		231D3AD21F96F2990065140D /* 构造和析构基础.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "构造和析构基础.cpp"; sourceTree = "<group>"; };
 		232E746B1F9885FE005149D1 /* static关键字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "static关键字.cpp"; sourceTree = "<group>"; };
 		232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "copy构造函数规则研究.cpp"; sourceTree = "<group>"; };
@@ -62,6 +88,13 @@
 		232E74771F9885FF005149D1 /* 深copy浅copy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "深copy浅copy.cpp"; sourceTree = "<group>"; };
 		232E74781F9885FF005149D1 /* 深浅copy2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "深浅copy2.cpp"; sourceTree = "<group>"; };
 		232E74791F9885FF005149D1 /* C++对象管理模型2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "C++对象管理模型2.cpp"; sourceTree = "<group>"; };
+		23B149F21FA1ABFF00150360 /* 引用基础.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "引用基础.cpp"; sourceTree = "<group>"; };
+		23B149F31FA1ABFF00150360 /* 引用当左值.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "引用当左值.cpp"; sourceTree = "<group>"; };
+		23B149F41FA1ABFF00150360 /* 类的封装.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "类的封装.cpp"; sourceTree = "<group>"; };
+		23B149F51FA1ABFF00150360 /* 函数扩展.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "函数扩展.cpp"; sourceTree = "<group>"; };
+		23B149F61FA1ABFF00150360 /* 指针的引用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "指针的引用.cpp"; sourceTree = "<group>"; };
+		23B149F71FA1ABFF00150360 /* 函数重载.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "函数重载.cpp"; sourceTree = "<group>"; };
+		23B149F81FA1ABFF00150360 /* const引用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "const引用.cpp"; sourceTree = "<group>"; };
 		23C1EDDC1F7A1E5C009A6631 /* Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D75CC91F8570FC00173F22 /* ks02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ks02.c; sourceTree = "<group>"; };
 		23E689621F95AA1500D3DF1C /* myop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = myop.c; sourceTree = "<group>"; };
@@ -109,9 +142,27 @@
 			path = "结构体和析构函数";
 			sourceTree = "<group>";
 		};
+		23B14A031FA1AD5500150360 /* 运算符重载 */ = {
+			isa = PBXGroup;
+			children = (
+				230F137E1FA1ADB6007734F1 /* 操作符重载的正确写法.cpp */,
+				230F13761FA1ADB6007734F1 /* 货物链表类.cpp */,
+				230F137A1FA1ADB6007734F1 /* 全局函数和普通函数.cpp */,
+				230F137D1FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp */,
+				230F137B1FA1ADB6007734F1 /* 友元函数.cpp */,
+				230F13771FA1ADB6007734F1 /* 运算符重载.cpp */,
+				230F13781FA1ADB6007734F1 /* Array.cpp */,
+				230F13791FA1ADB6007734F1 /* Array.hpp */,
+				230F137C1FA1ADB6007734F1 /* ArrayTest.cpp */,
+				230F137F1FA1ADB6007734F1 /* const测试.cpp */,
+			);
+			path = "运算符重载";
+			sourceTree = "<group>";
+		};
 		23C1EDD31F7A1E5C009A6631 = {
 			isa = PBXGroup;
 			children = (
+				23B14A031FA1AD5500150360 /* 运算符重载 */,
 				231D3AD11F96F2700065140D /* 结构体和析构函数 */,
 				23E689611F95A9E400D3DF1C /* 结构体配置文件读写 */,
 				23F19B291F848FA6008D25FD /* C-期中测试 */,
@@ -139,6 +190,13 @@
 		23C1EDE71F7AE661009A6631 /* 引用操练 */ = {
 			isa = PBXGroup;
 			children = (
+				23B149F51FA1ABFF00150360 /* 函数扩展.cpp */,
+				23B149F71FA1ABFF00150360 /* 函数重载.cpp */,
+				23B149F41FA1ABFF00150360 /* 类的封装.cpp */,
+				23B149F31FA1ABFF00150360 /* 引用当左值.cpp */,
+				23B149F21FA1ABFF00150360 /* 引用基础.cpp */,
+				23B149F61FA1ABFF00150360 /* 指针的引用.cpp */,
+				23B149F81FA1ABFF00150360 /* const引用.cpp */,
 				23F19B271F84872A008D25FD /* 构造析构方案.cpp */,
 			);
 			path = "引用操练";
@@ -225,27 +283,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				232E74811F9885FF005149D1 /* 多个对象初始化问题研究.cpp in Sources */,
+				230F13831FA1ADB6007734F1 /* 全局函数和普通函数.cpp in Sources */,
+				230F13851FA1ADB6007734F1 /* ArrayTest.cpp in Sources */,
 				232E74861F9885FF005149D1 /* 深copy浅copy.cpp in Sources */,
 				23E6D8691F9700E50090BCEB /* ks03.c in Sources */,
 				232E74821F9885FF005149D1 /* newDelete专题提高.cpp in Sources */,
+				23B149FC1FA1ABFF00150360 /* 函数扩展.cpp in Sources */,
 				232E74801F9885FF005149D1 /* 强化练习03.cpp in Sources */,
 				232E74851F9885FF005149D1 /* 拷贝构造函数场景2.cpp in Sources */,
 				232E747F1F9885FF005149D1 /* C++对象管理模型.cpp in Sources */,
+				23B149F91FA1ABFF00150360 /* 引用基础.cpp in Sources */,
 				232E74881F9885FF005149D1 /* C++对象管理模型2.cpp in Sources */,
 				23E6D86B1F9716150090BCEB /* ks04.c in Sources */,
+				230F13801FA1ADB6007734F1 /* 货物链表类.cpp in Sources */,
+				23B149FB1FA1ABFF00150360 /* 类的封装.cpp in Sources */,
 				231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */,
+				230F13871FA1ADB6007734F1 /* 操作符重载的正确写法.cpp in Sources */,
 				232E747E1F9885FF005149D1 /* 拷贝构造函数第四个应用场景.cpp in Sources */,
 				23E689641F95AA1500D3DF1C /* myop.c in Sources */,
+				230F13881FA1ADB6007734F1 /* const测试.cpp in Sources */,
 				232E74831F9885FF005149D1 /* newDelete专题基础.cpp in Sources */,
 				232E747D1F9885FF005149D1 /* 强化练习01.cpp in Sources */,
 				23E689691F95AF0000D3DF1C /* cfg_op.c in Sources */,
+				23B149FD1FA1ABFF00150360 /* 指针的引用.cpp in Sources */,
+				230F13811FA1ADB6007734F1 /* 运算符重载.cpp in Sources */,
 				23E689661F95AE7200D3DF1C /* test_interface.c in Sources */,
+				23B149FF1FA1ABFF00150360 /* const引用.cpp in Sources */,
+				230F13841FA1ADB6007734F1 /* 友元函数.cpp in Sources */,
+				230F13821FA1ADB6007734F1 /* Array.cpp in Sources */,
+				23B149FE1FA1ABFF00150360 /* 函数重载.cpp in Sources */,
 				232E74871F9885FF005149D1 /* 深浅copy2.cpp in Sources */,
 				23D75CCA1F8570FC00173F22 /* ks02.c in Sources */,
 				232E747B1F9885FF005149D1 /* copy构造函数规则研究.cpp in Sources */,
+				23B149FA1FA1ABFF00150360 /* 引用当左值.cpp in Sources */,
 				232E747C1F9885FF005149D1 /* 拷贝构造函数的四种应用场景.cpp in Sources */,
 				232E74841F9885FF005149D1 /* 强化练习02.cpp in Sources */,
 				23F19B2B1F848FD4008D25FD /* ks01.c in Sources */,
+				230F13861FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp in Sources */,
 				232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */,
 				23F19B281F84872A008D25FD /* 构造析构方案.cpp in Sources */,
 			);
