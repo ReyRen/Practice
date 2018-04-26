@@ -16,6 +16,11 @@
 		230F13861FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137D1FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp */; };
 		230F13871FA1ADB6007734F1 /* 操作符重载的正确写法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137E1FA1ADB6007734F1 /* 操作符重载的正确写法.cpp */; };
 		230F13881FA1ADB6007734F1 /* const测试.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F137F1FA1ADB6007734F1 /* const测试.cpp */; };
+		230F138B1FA27615007734F1 /* 类的访问控制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F138A1FA27615007734F1 /* 类的访问控制.cpp */; };
+		230F138D1FA2E912007734F1 /* 子类类继承对类访问属性的影响.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F138C1FA2E912007734F1 /* 子类类继承对类访问属性的影响.cpp */; };
+		230F138F1FA2E96E007734F1 /* 子类类继承对类访问属性的影响答案.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F138E1FA2E96E007734F1 /* 子类类继承对类访问属性的影响答案.cpp */; };
+		230F13911FA2EFBC007734F1 /* 赋值兼容原则.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F13901FA2EFBC007734F1 /* 赋值兼容原则.cpp */; };
+		230F13931FA30C5F007734F1 /* 继承和组合混搭.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230F13921FA30C5F007734F1 /* 继承和组合混搭.cpp */; };
 		231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 231D3AD21F96F2990065140D /* 构造和析构基础.cpp */; };
 		232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746B1F9885FE005149D1 /* static关键字.cpp */; };
 		232E747B1F9885FF005149D1 /* copy构造函数规则研究.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */; };
@@ -72,6 +77,11 @@
 		230F137D1FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "用两种方法实现运算符重载.cpp"; sourceTree = "<group>"; };
 		230F137E1FA1ADB6007734F1 /* 操作符重载的正确写法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "操作符重载的正确写法.cpp"; sourceTree = "<group>"; };
 		230F137F1FA1ADB6007734F1 /* const测试.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "const测试.cpp"; sourceTree = "<group>"; };
+		230F138A1FA27615007734F1 /* 类的访问控制.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "类的访问控制.cpp"; sourceTree = "<group>"; };
+		230F138C1FA2E912007734F1 /* 子类类继承对类访问属性的影响.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "子类类继承对类访问属性的影响.cpp"; sourceTree = "<group>"; };
+		230F138E1FA2E96E007734F1 /* 子类类继承对类访问属性的影响答案.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "子类类继承对类访问属性的影响答案.cpp"; sourceTree = "<group>"; };
+		230F13901FA2EFBC007734F1 /* 赋值兼容原则.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "赋值兼容原则.cpp"; sourceTree = "<group>"; };
+		230F13921FA30C5F007734F1 /* 继承和组合混搭.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "继承和组合混搭.cpp"; sourceTree = "<group>"; };
 		231D3AD21F96F2990065140D /* 构造和析构基础.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "构造和析构基础.cpp"; sourceTree = "<group>"; };
 		232E746B1F9885FE005149D1 /* static关键字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "static关键字.cpp"; sourceTree = "<group>"; };
 		232E746C1F9885FE005149D1 /* copy构造函数规则研究.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "copy构造函数规则研究.cpp"; sourceTree = "<group>"; };
@@ -119,6 +129,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230F13891FA273DC007734F1 /* 继承 */ = {
+			isa = PBXGroup;
+			children = (
+				230F138A1FA27615007734F1 /* 类的访问控制.cpp */,
+				230F138C1FA2E912007734F1 /* 子类类继承对类访问属性的影响.cpp */,
+				230F138E1FA2E96E007734F1 /* 子类类继承对类访问属性的影响答案.cpp */,
+				230F13901FA2EFBC007734F1 /* 赋值兼容原则.cpp */,
+				230F13921FA30C5F007734F1 /* 继承和组合混搭.cpp */,
+			);
+			path = "继承";
+			sourceTree = "<group>";
+		};
 		231D3AD11F96F2700065140D /* 结构体和析构函数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +184,7 @@
 		23C1EDD31F7A1E5C009A6631 = {
 			isa = PBXGroup;
 			children = (
+				230F13891FA273DC007734F1 /* 继承 */,
 				23B14A031FA1AD5500150360 /* 运算符重载 */,
 				231D3AD11F96F2700065140D /* 结构体和析构函数 */,
 				23E689611F95A9E400D3DF1C /* 结构体配置文件读写 */,
@@ -282,19 +305,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230F13931FA30C5F007734F1 /* 继承和组合混搭.cpp in Sources */,
 				232E74811F9885FF005149D1 /* 多个对象初始化问题研究.cpp in Sources */,
 				230F13831FA1ADB6007734F1 /* 全局函数和普通函数.cpp in Sources */,
 				230F13851FA1ADB6007734F1 /* ArrayTest.cpp in Sources */,
+				230F138F1FA2E96E007734F1 /* 子类类继承对类访问属性的影响答案.cpp in Sources */,
 				232E74861F9885FF005149D1 /* 深copy浅copy.cpp in Sources */,
 				23E6D8691F9700E50090BCEB /* ks03.c in Sources */,
 				232E74821F9885FF005149D1 /* newDelete专题提高.cpp in Sources */,
 				23B149FC1FA1ABFF00150360 /* 函数扩展.cpp in Sources */,
+				230F138B1FA27615007734F1 /* 类的访问控制.cpp in Sources */,
 				232E74801F9885FF005149D1 /* 强化练习03.cpp in Sources */,
 				232E74851F9885FF005149D1 /* 拷贝构造函数场景2.cpp in Sources */,
 				232E747F1F9885FF005149D1 /* C++对象管理模型.cpp in Sources */,
 				23B149F91FA1ABFF00150360 /* 引用基础.cpp in Sources */,
 				232E74881F9885FF005149D1 /* C++对象管理模型2.cpp in Sources */,
 				23E6D86B1F9716150090BCEB /* ks04.c in Sources */,
+				230F13911FA2EFBC007734F1 /* 赋值兼容原则.cpp in Sources */,
 				230F13801FA1ADB6007734F1 /* 货物链表类.cpp in Sources */,
 				23B149FB1FA1ABFF00150360 /* 类的封装.cpp in Sources */,
 				231D3AD31F96F2990065140D /* 构造和析构基础.cpp in Sources */,
@@ -322,6 +349,7 @@
 				230F13861FA1ADB6007734F1 /* 用两种方法实现运算符重载.cpp in Sources */,
 				232E747A1F9885FF005149D1 /* static关键字.cpp in Sources */,
 				23F19B281F84872A008D25FD /* 构造析构方案.cpp in Sources */,
+				230F138D1FA2E912007734F1 /* 子类类继承对类访问属性的影响.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
